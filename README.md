@@ -18,7 +18,7 @@ Certifique-se de ter o Python instalado na sua máquina (recomendado Python 3.9+
 
 1. Clone o repositório para o seu ambiente local:
    ```bash
-   git clone <LINK_DO_SEU_REPOSITORIO>
+   git clone  https://github.com/baracholeticia/heart-disease-naive-bayes.git
    cd heart-disease-naive-bayes
    ```
 
