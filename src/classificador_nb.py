@@ -64,11 +64,9 @@ def avaliar_modelo(y_true, y_pred):
     print(f'F1-Score : {f1_score:.4f} ({f1_score * 100:.2f}%)')
 
 def main():
-    print('Carregando os dados separados em Treino e Teste (Tópico 6)...')
     train_df, test_df = load_prepared_data()
     y_train = train_df['target'].values
     y_test = test_df['target'].values
-    print('\nTreinando o Classificador Naive Bayes Completo (Tópico 5)...')
     nb = NaiveBayesCompleto()
     nb.fit(train_df, y_train)
     print('Realizando predições no conjunto de teste...')
